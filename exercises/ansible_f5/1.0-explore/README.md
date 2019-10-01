@@ -8,8 +8,13 @@ This training will take you through the basic knowledge and exercises to gain un
 
 Being a '101', this training will only cover:
 
- - the use of Playbooks and deploy application service on the BIG-IP.
- - using variables which will get explained.
+ - Exploring some Ansible basics.
+ - Gathering BIG-IP facts. 
+ - Creating BIG-IP objects like nodes, pool, virtual server and iRules.
+ - Disable pool member, delete configuration and error handling.
+ - Introduction of using AS3 with Ansible.
+
+After taking this course a student should be able to create simple playbooks for deploying application services on BIG-IP and be able to use AS3 with Ansible and push configurations through a playbook on the BIG-IP.
 
 Before you get started, please join us on slack! [Click here to join the ansiblenetwork slack](https://join.slack.com/t/ansiblenetwork/shared_invite/enQtMzEyMTcxMTE5NjM3LWIyMmQ4YzNhYTA4MjA2OTRhZDQzMTZkNWZlN2E3NzhhMWQ5ZTdmNmViNjk2M2JkYzJjODhjMjVjMGUxZjc2MWE).  This will allow you to chat with other network automation engineers and get help after the workshops concludes.
 
@@ -22,7 +27,7 @@ Ansible is an open-source automation engine for software provisioning, configura
 
 When Ansible gets installed it will contain an initial 'Ansible configuration file' called ansible.cfg file which includes the inventory of hosts and where the library of modules can be found.
 
-Let's start to explore.
+Let's start to explore by walking through the steps.
 
 #### Step 1
 
